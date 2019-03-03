@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VHTM</title>
+</head>
+<body>
+<script>
+     let x = prompt("Nhập chữ vào đây :");
+     let y = "";
+    for (let i=0;i<x.length;i++){
+        if(x[i].toUpperCase()===x[i]){
+         y+=x[i].toLowerCase();
+        }else {
+            y+=x[i].toUpperCase();
+        }
+    }
+    document.write(y)
+</script>
+</body>
+</html>
